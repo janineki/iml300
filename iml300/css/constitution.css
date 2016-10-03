@@ -4,25 +4,26 @@ Feel free to add additional styling if you wish
 DO NOT CHANGE the class names
 */
 
-.article {background-color: rgb (163, 219, 208);font-family: 'Poiret One', cursive; font-size: 60px; color: rgb(140, 162, 255); }/*hsl (168, 44%, 75%);*/
+.title {font-family: 'Poiret One', cursive; font-size: 10px;}
+.article {background-color: rgb (163, 219, 208);}/*hsl (168, 44%, 75%);*/
     
 }/*liberty*/
 
 .section {margin-top: 100px;
 margin-right: 120px;
 margin-bottom:100px;
-margin-left: 120px;
+margin-left: 120px;  
 }
 
-.section {background-color: rgb (220, 254, 248); font-family:'Yanone Kaffeesatz', sans-serif;font-size: 20px;}/*periwinkle blue*/
+.section {background-color: rgb (220, 254, 248);}/*mint blue*/
 
-.amendment {background-color: rgb (240, 240, 240);font-family:'Yanone Kaffeesatz', sans-serif;}/*periwinkle blue*/
+.amendment {background-color: rgb (240, 240, 240);}/*gray94*/
     
 }
 
-.emphasize {background-color: rgb (254, 240, 174);
+.emphasize {background-color: rgba (57, 132, 207, 0.1);
     
-}/*light blue*/
+}/*blue with opacity*/
 
 .keywords {margin-top: 50px;
 margin-right: 60px;
@@ -48,19 +49,18 @@ footer {
 
 footer a {
     text-decoration: none;    
-    font-size: 1em;
-    font-family: 'Poiret One', cursive;
-    color: rgb(140, 162, 255);
+    font-size: 1em;    
 }
 
-footer a span {            
+footer a span {
+    background-color: orange;            
     font-size: 2em;
-    vertical-align: text-bottom    
+    vertical-align: text-bottom
 }
 
 
 footer a:hover {
-    color: azure;
+    color: crimson;
 }
 
 nav {
